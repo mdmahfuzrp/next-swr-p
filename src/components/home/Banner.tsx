@@ -13,7 +13,7 @@ const Banner = () => {
         ]}
         delay={3000}
       />
-      <div className="w-main relative  h-[381px] object-cover z-10">
+      <div className="w-main relative  h-[381px] z-10">
         <Categories />
       </div>
     </div>

@@ -8,14 +8,6 @@
   }
 }
 
-/* Image Slider Container */
-.slider {
-  width: 100%;
-  position: relative;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
 /* Slider Image */
 .slider img {
   width: 100%;
@@ -24,18 +16,7 @@
   object-fit: cover;
   transition: transform 0.3s ease-in-out;
 }
-.paused {
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  color: white;
-  padding: 5px;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.384);
-  display: flex;
-}
+
 .pagination-dots {
   position: absolute;
   bottom: 10px;

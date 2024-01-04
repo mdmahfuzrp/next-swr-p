@@ -22,8 +22,12 @@ const Slider: React.FC<ImageSliderProps> = ({ images, delay }) => {
   }, [images]);
 
   return (
-    <div className="w-full absolute overflow-hidden z-0">
-      <img src={images[currentSlide]} alt={`Slide ${currentSlide}`} />
+    <div className="w-full h-full absolute overflow-hidden z-0">
+      <img
+        src={images[currentSlide]}
+        className="w-full h-full object-cover"
+        alt={`Slide ${currentSlide}`}
+      />
       <div className="pagination-dots">
         {images.map((_, index) => (
           <span
