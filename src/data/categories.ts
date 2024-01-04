@@ -16,6 +16,327 @@ export const category_data: Category[] = [
     title: "Womens’ & Girls’ Fashion",
     sub_categories: [
       {
+        title: "kids bags",
+        sub_categories: [
+          { title: "Travel Bags" },
+          { title: "Clutches" },
+          { title: "Crossbody Bags" },
+          { title: "Hobo Bags" },
+          { title: "Satchels" },
+          { title: "Shoulder Bags" },
+        ],
+      },
+      {
+        title: "laptop bags & cases",
+        sub_categories: [
+          { title: "Crossbody Bags" },
+          { title: "Evening Bags" },
+          { title: "Hobo Bags" },
+          { title: "Satchels" },
+          { title: "Travel Bags" },
+        ],
+      },
+      {
+        title: "Women’s Bag",
+        sub_categories: [
+          { title: "Top-Handle Bags" },
+          { title: "Clutches" },
+          { title: "Crossbody Bags" },
+          { title: "Bag Charms& Accessories" },
+          { title: "Hobo Bags" },
+          { title: "Satchels" },
+          { title: "Clutches" },
+        ],
+      },
+    ],
+  },
+  {
+    id: 1,
+    icon: GiLargeDress,
+    title: "Womens’ & Girls’ Fashion",
+    sub_categories: [
+      {
+        title: "kids bags",
+        sub_categories: [
+          { title: "Travel Bags" },
+          { title: "Clutches" },
+          { title: "Crossbody Bags" },
+          { title: "Hobo Bags" },
+          { title: "Satchels" },
+          { title: "Shoulder Bags" },
+        ],
+      },
+      {
+        title: "laptop bags & cases",
+        sub_categories: [
+          { title: "Crossbody Bags" },
+          { title: "Evening Bags" },
+          { title: "Hobo Bags" },
+          { title: "Satchels" },
+          { title: "Travel Bags" },
+        ],
+      },
+      {
+        title: "Women’s Bag",
+        sub_categories: [
+          { title: "Top-Handle Bags" },
+          { title: "Clutches" },
+          { title: "Crossbody Bags" },
+          { title: "Bag Charms& Accessories" },
+          { title: "Hobo Bags" },
+          { title: "Satchels" },
+          { title: "Clutches" },
+        ],
+      },
+    ],
+  },
+  {
+    id: 1,
+    icon: GiLargeDress,
+    title: "Womens’ & Girls’ Fashion",
+    sub_categories: [
+      {
+        title: "kids bags",
+        sub_categories: [
+          { title: "Travel Bags" },
+          { title: "Clutches" },
+          { title: "Crossbody Bags" },
+          { title: "Hobo Bags" },
+          { title: "Satchels" },
+          { title: "Shoulder Bags" },
+        ],
+      },
+      {
+        title: "laptop bags & cases",
+        sub_categories: [
+          { title: "Crossbody Bags" },
+          { title: "Evening Bags" },
+          { title: "Hobo Bags" },
+          { title: "Satchels" },
+          { title: "Travel Bags" },
+        ],
+      },
+      {
+        title: "Women’s Bag",
+        sub_categories: [
+          { title: "Top-Handle Bags" },
+          { title: "Clutches" },
+          { title: "Crossbody Bags" },
+          { title: "Bag Charms& Accessories" },
+          { title: "Hobo Bags" },
+          { title: "Satchels" },
+          { title: "Clutches" },
+        ],
+      },
+    ],
+  },
+  {
+    id: 1,
+    icon: GiLargeDress,
+    title: "Womens’ & Girls’ Fashion",
+    sub_categories: [
+      {
+        title: "kids bags",
+        sub_categories: [
+          { title: "Travel Bags" },
+          { title: "Clutches" },
+          { title: "Crossbody Bags" },
+          { title: "Hobo Bags" },
+          { title: "Satchels" },
+          { title: "Shoulder Bags" },
+        ],
+      },
+      {
+        title: "laptop bags & cases",
+        sub_categories: [
+          { title: "Crossbody Bags" },
+          { title: "Evening Bags" },
+          { title: "Hobo Bags" },
+          { title: "Satchels" },
+          { title: "Travel Bags" },
+        ],
+      },
+      {
+        title: "Women’s Bag",
+        sub_categories: [
+          { title: "Top-Handle Bags" },
+          { title: "Clutches" },
+          { title: "Crossbody Bags" },
+          { title: "Bag Charms& Accessories" },
+          { title: "Hobo Bags" },
+          { title: "Satchels" },
+          { title: "Clutches" },
+        ],
+      },
+    ],
+  },
+  {
+    id: 1,
+    icon: GiLargeDress,
+    title: "Womens’ & Girls’ Fashion",
+    sub_categories: [
+      {
+        title: "kids bags",
+        sub_categories: [
+          { title: "Travel Bags" },
+          { title: "Clutches" },
+          { title: "Crossbody Bags" },
+          { title: "Hobo Bags" },
+          { title: "Satchels" },
+          { title: "Shoulder Bags" },
+        ],
+      },
+      {
+        title: "laptop bags & cases",
+        sub_categories: [
+          { title: "Crossbody Bags" },
+          { title: "Evening Bags" },
+          { title: "Hobo Bags" },
+          { title: "Satchels" },
+          { title: "Travel Bags" },
+        ],
+      },
+      {
+        title: "Women’s Bag",
+        sub_categories: [
+          { title: "Top-Handle Bags" },
+          { title: "Clutches" },
+          { title: "Crossbody Bags" },
+          { title: "Bag Charms& Accessories" },
+          { title: "Hobo Bags" },
+          { title: "Satchels" },
+          { title: "Clutches" },
+        ],
+      },
+    ],
+  },
+  {
+    id: 1,
+    icon: GiLargeDress,
+    title: "Womens’ & Girls’ Fashion",
+    sub_categories: [
+      {
+        title: "kids bags",
+        sub_categories: [
+          { title: "Travel Bags" },
+          { title: "Clutches" },
+          { title: "Crossbody Bags" },
+          { title: "Hobo Bags" },
+          { title: "Satchels" },
+          { title: "Shoulder Bags" },
+        ],
+      },
+      {
+        title: "laptop bags & cases",
+        sub_categories: [
+          { title: "Crossbody Bags" },
+          { title: "Evening Bags" },
+          { title: "Hobo Bags" },
+          { title: "Satchels" },
+          { title: "Travel Bags" },
+        ],
+      },
+      {
+        title: "Women’s Bag",
+        sub_categories: [
+          { title: "Top-Handle Bags" },
+          { title: "Clutches" },
+          { title: "Crossbody Bags" },
+          { title: "Bag Charms& Accessories" },
+          { title: "Hobo Bags" },
+          { title: "Satchels" },
+          { title: "Clutches" },
+        ],
+      },
+    ],
+  },
+  {
+    id: 1,
+    icon: GiLargeDress,
+    title: "Womens’ & Girls’ Fashion",
+    sub_categories: [
+      {
+        title: "kids bags",
+        sub_categories: [
+          { title: "Travel Bags" },
+          { title: "Clutches" },
+          { title: "Crossbody Bags" },
+          { title: "Hobo Bags" },
+          { title: "Satchels" },
+          { title: "Shoulder Bags" },
+        ],
+      },
+      {
+        title: "laptop bags & cases",
+        sub_categories: [
+          { title: "Crossbody Bags" },
+          { title: "Evening Bags" },
+          { title: "Hobo Bags" },
+          { title: "Satchels" },
+          { title: "Travel Bags" },
+        ],
+      },
+      {
+        title: "Women’s Bag",
+        sub_categories: [
+          { title: "Top-Handle Bags" },
+          { title: "Clutches" },
+          { title: "Crossbody Bags" },
+          { title: "Bag Charms& Accessories" },
+          { title: "Hobo Bags" },
+          { title: "Satchels" },
+          { title: "Clutches" },
+        ],
+      },
+    ],
+  },
+  {
+    id: 1,
+    icon: GiLargeDress,
+    title: "Womens’ & Girls’ Fashion",
+    sub_categories: [
+      {
+        title: "kids bags",
+        sub_categories: [
+          { title: "Travel Bags" },
+          { title: "Clutches" },
+          { title: "Crossbody Bags" },
+          { title: "Hobo Bags" },
+          { title: "Satchels" },
+          { title: "Shoulder Bags" },
+        ],
+      },
+      {
+        title: "laptop bags & cases",
+        sub_categories: [
+          { title: "Crossbody Bags" },
+          { title: "Evening Bags" },
+          { title: "Hobo Bags" },
+          { title: "Satchels" },
+          { title: "Travel Bags" },
+        ],
+      },
+      {
+        title: "Women’s Bag",
+        sub_categories: [
+          { title: "Top-Handle Bags" },
+          { title: "Clutches" },
+          { title: "Crossbody Bags" },
+          { title: "Bag Charms& Accessories" },
+          { title: "Hobo Bags" },
+          { title: "Satchels" },
+          { title: "Clutches" },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: 1,
+    icon: GiLargeDress,
+    title: "Womens’ & Girls’ Fashion",
+    sub_categories: [
+      {
         title: "Item 1",
         sub_categories: [
           { title: "Backpacks" },

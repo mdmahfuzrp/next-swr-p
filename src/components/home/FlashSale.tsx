@@ -8,6 +8,8 @@ import Timer from "../common/Timer";
 // Import Swiper
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import CategoryCard from "../common/CategoryCard";
+import { Grid } from "swiper/modules";
 
 const FlashSale = () => {
   return (
@@ -31,14 +33,7 @@ const FlashSale = () => {
 
         {/* Cards -> hide on small device */}
         <div className="hidden pt-3 desktop:flex justify-between">
-          <Swiper
-            spaceBetween={10}
-            slidesPerView={6}
-            autoplay={{
-              delay: 500,
-              disableOnInteraction: false,
-            }}
-          >
+          <Swiper spaceBetween={10} slidesPerView={6}>
             {Products.map((product) => (
               <SwiperSlide key={product.id}>
                 <Card product={product} />
@@ -49,7 +44,7 @@ const FlashSale = () => {
       </div>
 
       {/* show on small device */}
-      <div className="desktop:hidden mb-10 mt-1 mx-3 grid grid-cols-12 grid-rows-2 gap-1">
+      {/* <div className="desktop:hidden mb-10 mt-1 mx-3 grid grid-cols-12 grid-rows-2 gap-1">
         <div className="col-span-6 md:col-span-4 row-span-2">
           <Card />
         </div>
@@ -85,6 +80,45 @@ const FlashSale = () => {
           />
           <h4 className="text-center pb-2">Jerseys</h4>
         </div>
+      </div> */}
+
+      <div className="desktop:hidden mb-10 mt-1 mx-3 gap-1">
+        <Swiper
+          spaceBetween={5}
+          breakpoints={{
+            768: {
+              slidesPerView: 5,
+            },
+            200: {
+              slidesPerView: 3,
+            },
+          }}
+        >
+          <SwiperSlide>
+            <CategoryCard />
+          </SwiperSlide>
+          <SwiperSlide>
+            <CategoryCard />
+          </SwiperSlide>
+          <SwiperSlide>
+            <CategoryCard />
+          </SwiperSlide>
+          <SwiperSlide>
+            <CategoryCard />
+          </SwiperSlide>
+          <SwiperSlide>
+            <CategoryCard />
+          </SwiperSlide>
+          <SwiperSlide>
+            <CategoryCard />
+          </SwiperSlide>
+          <SwiperSlide>
+            <CategoryCard />
+          </SwiperSlide>
+          <SwiperSlide>
+            <CategoryCard />
+          </SwiperSlide>
+        </Swiper>
       </div>
     </>
   );
