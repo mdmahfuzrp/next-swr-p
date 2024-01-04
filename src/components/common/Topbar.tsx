@@ -11,7 +11,7 @@ const Topbar = () => {
             <button className="flex items-center gap-2">
               Language <FaAngleDown />
             </button>
-            <ul className="w-fit absolute border bg-white hidden group-hover:block">
+            <ul className="w-fit absolute z-20 shadow-lg border bg-white hidden group-hover:block">
               <li className="py-2 px-6 hover:bg-gray-200 border-t cursor-pointer">
                 Arabic
               </li>
