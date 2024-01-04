@@ -12,6 +12,9 @@ const config: Config = {
         primary: "#F97316",
         textColor: "#1F2937",
       },
+      screens: {
+        desktop: "1165px",
+      },
     },
   },
   plugins: [],

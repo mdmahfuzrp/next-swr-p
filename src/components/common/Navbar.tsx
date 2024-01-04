@@ -10,8 +10,8 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="w-full bg-white h-[70px] flex items-center">
-      <div className="w-main flex gap-10 items-center justify-between">
+    <nav className="hidden w-full bg-white h-[70px] md:flex items-center">
+      <div className="w-[1220px] mx-auto px-3 lg:px-0 flex gap-10 items-center justify-between">
         <Image src={Logo} alt="Logo" priority />
         <SearchBar />
         <div className="flex gap-3">
@@ -31,7 +31,12 @@ const Navbar = () => {
             </button>
           </Link>
         </div>
-        <Image className="cursor-pointer" src={Cloud} alt="Logo" priority />
+        <Image
+          className="cursor-pointer hidden lg:block"
+          src={Cloud}
+          alt="Logo"
+          priority
+        />
       </div>
     </nav>
   );

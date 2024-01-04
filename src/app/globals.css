@@ -4,7 +4,7 @@
 
 @layer components {
   .w-main {
-    @apply w-[1220px] mx-auto;
+    @apply max-w-[1220px] !mx-auto;
   }
 }
 

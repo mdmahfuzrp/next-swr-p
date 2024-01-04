@@ -4,7 +4,7 @@ import React from "react";
 
 const Topbar = () => {
   return (
-    <div className="bg-[#f0f1f1]">
+    <div className="hidden lg:block bg-[#f0f1f1]">
       <div className="w-main py-2 text-xs text-[#434343] flex justify-between">
         <ul className="flex gap-8">
           <li className="group">

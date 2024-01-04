@@ -19,7 +19,7 @@ const Timer = () => {
     const remainingSeconds = seconds % 60;
 
     return (
-      <div className="text-primary flex gap-1 items-center">
+      <div className="text-primary flex gap-1 items-center text-xs md:text-base">
         <span className="bg-primary text-white rounded-[4px] py-[4px] px-2">
           {hours}
         </span>{" "}

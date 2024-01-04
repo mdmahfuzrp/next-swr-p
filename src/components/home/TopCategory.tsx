@@ -20,7 +20,7 @@ const CategoryData = [
   },
   {
     icon: <FcBusinesswoman />,
-    title: "Beauty & Glamour",
+    title: "Beauty",
   },
   {
     icon: <FcHome />,
@@ -34,21 +34,25 @@ const CategoryData = [
 
 const TopCategory = () => {
   return (
-    <div className="w-main grid grid-cols-5 gap-2 mt-4">
-      {CategoryData?.map((item, index) => (
-        <div
-          key={index}
-          className="flex items-center gap-2 bg-white rounded-full p-2 hover:shadow-md cursor-pointer hover:text-primary group duration-200"
-        >
-          <span className="p-1 text-2xl rounded-full bg-orange-200/50">
-            {item.icon}
-          </span>
-          <span>{item.title}</span>
-          <span className="ml-auto text-gray-400 pr-2 group-hover:text-primary">
-            <FaChevronRight />
-          </span>
-        </div>
-      ))}
+    <div className="w-main">
+      <div className="flex justify-between gap-0 md:gap-2 mt-4">
+        {CategoryData?.map((item, index) => (
+          <div
+            key={index}
+            className="w-full flex flex-col md:flex-row text-center md:text-left items-center gap-1 md:gap-2 md:bg-white rounded-full p-1 md:p-2 lg:hover:shadow-md cursor-pointer hover:text-primary group duration-200"
+          >
+            <span className="p-3 lg:p-1 text-4xl md:text-2xl rounded-full bg-white lg:bg-orange-200/50">
+              {item.icon}
+            </span>
+            <span className="text-xs md:text-sm lg:text-base">
+              {item.title}
+            </span>
+            <span className="hidden lg:block ml-auto text-gray-400 pr-2 group-hover:text-primary">
+              <FaChevronRight />
+            </span>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

@@ -21,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="bg-[#F0F0F0]">
-      <body className={roboto.className}>{children}</body>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }
