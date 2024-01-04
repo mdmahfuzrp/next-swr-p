@@ -1,6 +1,9 @@
 import React from "react";
 import { GiLargeDress, GiLipstick } from "react-icons/gi";
 import { BsWatch } from "react-icons/bs";
+import { FaTshirt } from "react-icons/fa";
+import { MdDevices } from "react-icons/md";
+import { PiMonitorPlayFill } from "react-icons/pi";
 
 type Category = {
   id: number;
@@ -52,8 +55,8 @@ export const category_data: Category[] = [
   },
   {
     id: 1,
-    icon: GiLargeDress,
-    title: "Womens’ & Girls’ Fashion",
+    icon: FaTshirt,
+    title: "Men's & Boys' Fashion",
     sub_categories: [
       {
         title: "kids bags",
@@ -92,8 +95,8 @@ export const category_data: Category[] = [
   },
   {
     id: 1,
-    icon: GiLargeDress,
-    title: "Womens’ & Girls’ Fashion",
+    icon: MdDevices,
+    title: "Electronics Devices",
     sub_categories: [
       {
         title: "kids bags",
@@ -132,8 +135,8 @@ export const category_data: Category[] = [
   },
   {
     id: 1,
-    icon: GiLargeDress,
-    title: "Womens’ & Girls’ Fashion",
+    icon: PiMonitorPlayFill,
+    title: "TV & Home Appliances",
     sub_categories: [
       {
         title: "kids bags",

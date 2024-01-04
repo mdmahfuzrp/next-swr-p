@@ -49,9 +49,9 @@ const Categories = () => {
     >
       {/* First Layer */}
       <div className="bg-white min-w-[230px] px-4 h-full">
-        {category_data.map((category) => (
+        {category_data.map((category, index) => (
           <div
-            key={category.id}
+            key={index}
             className={`flex items-center cursor-pointer py-2 hover:text-primary ${
               (activeFirstLayer === null && hoveredCategory === category) ||
               activeFirstLayer === category

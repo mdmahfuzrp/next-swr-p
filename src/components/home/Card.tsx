@@ -24,18 +24,18 @@ const Card = ({ product }: any) => {
         )}
         <img
           src="/images/dis.png"
-          className="-mt-[32px] pb-[12px] ml-[10px]"
+          className=" -mt-[32px] pb-[12px] ml-[10px]"
           alt=""
         />
       </div>
       <div className="px-2 py-3">
         <Link href="#">
-          <h2 className="text-sm group-hover:text-primary">
+          <h2 className="text-xs md:text-sm group-hover:text-primary">
             {product?.title || "Airpods Pro Made In Dubai Bluetooth Earbuds"}
           </h2>
         </Link>
         <div className="flex items-center gap-3 mt-2">
-          <h3 className="text-primary">৳ 1,9900</h3>
+          <h3 className="text-primary text-xs md:text-base">৳ 1,9900</h3>
           <span className="line-through text-xs text-gray-500">৳ 3000</span>
         </div>
       </div>

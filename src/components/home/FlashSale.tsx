@@ -95,6 +95,9 @@ const FlashSale = () => {
           }}
         >
           <SwiperSlide>
+            <Card />
+          </SwiperSlide>
+          <SwiperSlide>
             <CategoryCard />
           </SwiperSlide>
           <SwiperSlide>
