@@ -1,9 +1,13 @@
+"use client";
 import Link from "next/link";
 import { GoChevronRight } from "react-icons/go";
-import React from "react";
+import React, { useState } from "react";
 import Card from "./Card";
 import { Products } from "@/data/products";
 import Timer from "../common/Timer";
+// Import Swiper
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
 
 const FlashSale = () => {
   return (
@@ -23,9 +27,20 @@ const FlashSale = () => {
 
       {/* Cards */}
       <div className="pt-3 flex justify-between">
-        {Products.map((product) => (
-          <Card product={product} />
-        ))}
+        <Swiper
+          spaceBetween={10}
+          slidesPerView={6}
+          autoplay={{
+            delay: 500,
+            disableOnInteraction: false,
+          }}
+        >
+          {Products.map((product) => (
+            <SwiperSlide key={product.id}>
+              <Card product={product} />
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
     </div>
   );

@@ -33,4 +33,14 @@ export const Products = [
     img: P1,
     title: "Soft Newborn Baby Wrap Blankets Baby Sleeping",
   },
+  {
+    id: 7,
+    img: P3,
+    title: "Soft Newborn Baby Wrap Blankets Baby Sleeping",
+  },
+  {
+    id: 8,
+    img: P2,
+    title: "Soft Newborn Baby Wrap Blankets Baby Sleeping",
+  },
 ];
