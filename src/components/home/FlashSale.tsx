@@ -43,45 +43,6 @@ const FlashSale = () => {
         </div>
       </div>
 
-      {/* show on small device */}
-      {/* <div className="desktop:hidden mb-10 mt-1 mx-3 grid grid-cols-12 grid-rows-2 gap-1">
-        <div className="col-span-6 md:col-span-4 row-span-2">
-          <Card />
-        </div>
-        <div className="bg-white col-span-3 md:col-span-2">
-          <img
-            src="mobileB/shirt.png"
-            className="w-full object-contain"
-            alt="shirt"
-          />
-          <h4 className="text-center pb-2">Jerseys</h4>
-        </div>
-        <div className="bg-white col-span-3 md:col-span-2">
-          <img
-            src="mobileB/shirt.png"
-            className="w-full object-contain"
-            alt="shirt"
-          />
-          <h4 className="text-center pb-2">Jerseys</h4>
-        </div>
-        <div className="bg-white col-span-3 md:col-span-2">
-          <img
-            src="mobileB/shirt.png"
-            className="w-full object-contain"
-            alt="shirt"
-          />
-          <h4 className="text-center pb-2">Jerseys</h4>
-        </div>
-        <div className="bg-white col-span-3 md:col-span-2">
-          <img
-            src="mobileB/shirt.png"
-            className="w-full object-contain"
-            alt="shirt"
-          />
-          <h4 className="text-center pb-2">Jerseys</h4>
-        </div>
-      </div> */}
-
       <div className="desktop:hidden mb-10 mt-1 mx-3 gap-1">
         <Swiper
           spaceBetween={5}

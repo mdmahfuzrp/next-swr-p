@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import { IoMdHeartEmpty } from "react-icons/io";
-import P1 from "@/assets/products/p1.png";
 import Link from "next/link";
 
 const Card = ({ product }: any) => {
