@@ -1,10 +1,11 @@
-import Topbar from "@/components/Topbar";
-import Image from "next/image";
+import Navbar from "@/components/common/Navbar";
+import Topbar from "@/components/common/Topbar";
 
 export default function Home() {
   return (
     <main>
       <Topbar />
+      <Navbar />
     </main>
   );
 }
