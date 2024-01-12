@@ -1,10 +1,37 @@
+"use client"
 import Link from "next/link";
 import { FaAngleDown } from "react-icons/fa6";
-import React from "react";
+import React, { useEffect, useRef } from "react";
 
 const Topbar = () => {
+  const componentRef = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          // Component is in the viewport, perform mount logic
+          console.log('Component entered viewport - mount');
+        } else {
+          // Component is out of the viewport, perform unmount logic
+          console.log('Component left viewport - unmount');
+        }
+      },
+      { threshold: 0.5 } // Adjust the threshold as needed
+    );
+
+    // Update ref value when the component renders
+    if (componentRef.current) {
+      observer.observe(componentRef.current);
+    }
+
+    // Cleanup observer on component unmount
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
   return (
-    <div className="hidden lg:block bg-[#f0f1f1]">
+    <div className="hidden lg:block bg-[#f0f1f1]" ref={componentRef}>
       <div className="w-main py-2 text-xs text-[#434343] flex justify-between">
         <ul className="flex gap-8">
           <li className="group">

@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import Logo from "@/assets/basic/logo.png";
 import Cloud from "@/assets/basic/cloud.png";
@@ -7,13 +8,28 @@ import { BsCart3 } from "react-icons/bs";
 import Image from "next/image";
 import SearchBar from "./SearchBar";
 import Link from "next/link";
+import useSWR from "swr";
 
 const Navbar = () => {
+  const fetchProducts = async () => {
+    try {
+      const response = await fetch("https://dummyjson.com/products");
+      const data = await response.json();
+      return data.products;
+    } catch (error) {
+      console.error("Error fetching products:", error);
+      return [];
+    }
+  };
+
+  const { data: searchHistory = [], error } = useSWR("products", fetchProducts);
+  // console.log(searchHistory);
+
   return (
     <nav className="hidden w-full bg-white h-[70px] md:flex items-center">
       <div className="w-[1220px] mx-auto px-3 lg:px-0 flex gap-10 items-center justify-between">
         <Image src={Logo} alt="Logo" priority />
-        <SearchBar />
+        <SearchBar historyData={searchHistory} error={error} />
         <div className="flex gap-3">
           <Link href="#">
             <button className="bg-[#f5f5f5] text-[#707070] hover:bg-primary hover:text-white rounded-lg p-2">
